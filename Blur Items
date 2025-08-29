@@ -2,3 +2,8 @@
    => So we github library dependency for blur the items{
           implementation 'jp.wasabeef:blurry:4.0.1'
    }
+2) Android 12+ → RenderEffect (fast, hardware accelerated).
+
+3) Android 11 and below → RenderScript (still works, but deprecated).
+
+If you want to avoid deprecated APIs → fallback to alpha dimming or write a custom blur algorithm.
