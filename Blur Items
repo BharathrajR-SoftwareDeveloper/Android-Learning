@@ -1,0 +1,4 @@
+1) Use blur effect in recycler view items. If we select one item, that items is zoom in and show bottom sheet dialogue(cancel,delete). Other non selected items are blur. If we cancel or deleted the selected item. All items are come to normal visible state.
+   => So we github library dependency for blur the items{
+          implementation 'jp.wasabeef:blurry:4.0.1'
+   }
